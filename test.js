@@ -7,7 +7,7 @@ const client = new Discord.Client()
 // The bot is ready
 client.on('ready', () => {
   console.log('Bot Started')
-})
+
 
 /*
   A ping pong bot, whenever you send "ping", it replies "pong".
@@ -35,7 +35,7 @@ client.on('message', message => {
     // Send "pong" to the same channel
     message.channel.send('pong');
   }
-});
+})
 
 
 client.login(process.env.BOT_TOKEN)
