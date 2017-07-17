@@ -9,4 +9,4 @@ client.on('ready', () => {
   console.log('Bot Started')
 })
 
-client.login(process.env.BOT_TOKEN)
+client.login(process.env.MzM2NTE3ODY2MjgxMTA3NDU2.DE5jrQ.kM3RigcFSiCQehFnK51moi_koJI)
